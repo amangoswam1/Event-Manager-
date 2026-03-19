@@ -1,0 +1,45 @@
+.productCard {
+    margin:10px;
+    padding:10px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.productCard:hover {
+    cursor: pointer;
+}
+
+.imageContainer {
+    padding:10px;
+    border-radius: 10px;
+}
+
+.productName {
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #16213e;
+}
+
+.price {
+    font-family:monospace;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    color:#e94560;
+}
+
+.button {
+    font-family: monospace;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    height: auto;
+    margin: 10% 10% 1%;
+    padding: 2px;
+    width:80%;
+    border-radius: 5px;
+    background-color: #f4acb7;
+}
